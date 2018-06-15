@@ -1,0 +1,16 @@
+Fixing anotation errors:
+Glycans 451 and 376 had annotation errors that I fixed. See email from Rob and Dave dfsmith@emory.edu 
+
+
+Internal Linkages:
+created this folder using clashes_28.cc
+scp'd to my own PC as gems compiles there
+created internal linkages using the Dropbox script in j.generate2-8InternalTorsions
+This removed the original pdb files and replaced them with files containing the permutations of the 2-8 linkages.
+I then removed the original pdb_Files folder on shaw and replaced it with the one from my PC.
+
+Fixing annotation errors:
+Glycans 509 and 560 have errors. See emails with rmcbride@scripps.edu. 509 has
+a missing bracket making an impossible structure. 560 has an alpha man in the core, rather than the beta.
+Instead of redoing 28 linkages, I've built 509 and 560 separately and merged
+here.
