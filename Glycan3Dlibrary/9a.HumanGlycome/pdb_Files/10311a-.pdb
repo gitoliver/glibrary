@@ -1,0 +1,76 @@
+LINK         O1  ROH     1                 C1  3LA     2
+LINK         O3  3LA     2                 C1  4YB     3
+LINK         O4  4YB     3                 C1  0fA     4
+HETATM    1  O1  ROH     1       1.860   1.686   0.145  1.00  0.00           O
+HETATM    2  C1  3LA     2       1.212   2.628   0.999  1.00  0.00           C
+HETATM    3  C2  3LA     2       1.874   4.039   0.910  1.00  0.00           C
+HETATM    4  O2  3LA     2       1.950   4.491  -0.480  1.00  0.00           O
+HETATM    5  C3  3LA     2       3.273   4.022   1.563  1.00  0.00           C
+HETATM    6  C4  3LA     2       3.251   3.454   3.003  1.00  0.00           C
+HETATM    7  O4  3LA     2       2.497   4.307   3.907  1.00  0.00           O
+HETATM    8  C5  3LA     2       2.645   2.035   3.004  1.00  0.00           C
+HETATM    9  O5  3LA     2       1.290   2.082   2.362  1.00  0.00           O
+HETATM   10  C6  3LA     2       2.561   1.401   4.411  1.00  0.00           C
+HETATM   11  O6  3LA     2       2.319  -0.018   4.311  1.00  0.00           O
+HETATM   12  O3  3LA     2       3.876   5.382   1.577  1.00  0.00           O
+HETATM   13  C1  4YB     3       5.071   5.539   0.739  1.00  0.00           C
+HETATM   14  O5  4YB     3       6.143   4.665   1.269  1.00  0.00           O
+HETATM   15  C5  4YB     3       7.437   4.693   0.541  1.00  0.00           C
+HETATM   16  C6  4YB     3       8.412   3.716   1.221  1.00  0.00           C
+HETATM   17  O6  4YB     3       7.836   2.399   1.239  1.00  0.00           O
+HETATM   18  C4  4YB     3       7.958   6.139   0.533  1.00  0.00           C
+HETATM   19  C3  4YB     3       6.906   7.108  -0.049  1.00  0.00           C
+HETATM   20  O3  4YB     3       7.449   8.458  -0.024  1.00  0.00           O
+HETATM   21  C2  4YB     3       5.553   7.021   0.718  1.00  0.00           C
+HETATM   22  N2  4YB     3       4.543   7.915   0.111  1.00  0.00           N
+HETATM   23  C2N 4YB     3       4.288   9.137   0.592  1.00  0.00           C
+HETATM   24  O2N 4YB     3       4.793   9.554   1.629  1.00  0.00           O
+HETATM   25  CME 4YB     3       3.340  10.019  -0.246  1.00  0.00           C
+HETATM   26  O4  4YB     3       9.192   6.202  -0.297  1.00  0.00           O
+HETATM   27  C1  0fA     4      10.418   6.568   0.442  1.00  0.00           C
+HETATM   28  O5  0fA     4      10.308   7.986   0.875  1.00  0.00           O
+HETATM   29  C5  0fA     4      10.561   9.046  -0.142  1.00  0.00           C
+HETATM   30  C6  0fA     4      10.368  10.404   0.538  1.00  0.00           C
+HETATM   31  C4  0fA     4      11.944   8.813  -0.785  1.00  0.00           C
+HETATM   32  O4  0fA     4      12.960   8.887   0.258  1.00  0.00           O
+HETATM   33  C3  0fA     4      11.930   7.418  -1.460  1.00  0.00           C
+HETATM   34  O3  0fA     4      13.151   7.205  -2.224  1.00  0.00           O
+HETATM   35  C2  0fA     4      11.703   6.299  -0.414  1.00  0.00           C
+HETATM   36  O2  0fA     4      11.602   5.008  -1.097  1.00  0.00           O
+CONECT    1    2                                                                
+CONECT    2    1    3    9                                                      
+CONECT    3    2    4    5                                                      
+CONECT    4    3                                                                
+CONECT    5    3    6   12                                                      
+CONECT    6    5    7    8                                                      
+CONECT    7    6                                                                
+CONECT    8    6    9   10                                                      
+CONECT    9    2    8                                                           
+CONECT   10    8   11                                                           
+CONECT   11   10                                                                
+CONECT   12    5   13                                                           
+CONECT   13   12   14   21                                                      
+CONECT   14   13   15                                                           
+CONECT   15   14   16   18                                                      
+CONECT   16   15   17                                                           
+CONECT   17   16                                                                
+CONECT   18   15   19   26                                                      
+CONECT   19   18   20   21                                                      
+CONECT   20   19                                                                
+CONECT   21   13   19   22                                                      
+CONECT   22   21   23                                                           
+CONECT   23   22   24   25                                                      
+CONECT   24   23                                                                
+CONECT   25   23                                                                
+CONECT   26   18   27                                                           
+CONECT   27   26   28   35                                                      
+CONECT   28   27   29                                                           
+CONECT   29   28   30   31                                                      
+CONECT   30   29                                                                
+CONECT   31   29   32   33                                                      
+CONECT   32   31                                                                
+CONECT   33   31   34   35                                                      
+CONECT   34   33                                                                
+CONECT   35   27   33   36                                                      
+CONECT   36   35                                                                
+END
